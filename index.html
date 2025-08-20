@@ -52,7 +52,10 @@
         </div>
         <script src="./src/slidezy.js"></script>
         <script>
-            const mySlider = new Slidezy("#my-slider");
+            const mySlider = new Slidezy("#my-slider", {
+                item: 2,
+                loop: true,
+            });
         </script>
     </body>
 </html>
